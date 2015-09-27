@@ -4,3 +4,36 @@ body,
 .sidebar {
     height: 100%;
 }
+
+.img-stack {
+    position: relative;
+    height: 156px;
+}
+
+.profile-back {
+    position: absolute;
+    width: 250px;
+}
+
+.profile {
+    position: absolute;
+    width: 75px;
+    left: 87.5px;
+    top: 20px;
+}
+
+.logout {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background-image: -webkit-linear-gradient(left, color-stop(#e74c3c 5px), color-stop(#ccc 5px));
+    background-image: linear-gradient(to right, #e74c3c 5px, #222 5px);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
+}
+
+.active {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background-image: -webkit-linear-gradient(left, color-stop(#2ecc71 5px), color-stop(#ccc 5px));
+    background-image: linear-gradient(to right, #2ecc71 5px, #222 5px);
+    background-repeat: repeat-x;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
+}

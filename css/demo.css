@@ -13,8 +13,8 @@
 
 .sidebar-nav {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-    background-image: -webkit-linear-gradient(left, color-stop(#222 3px), color-stop(#ccc 3px));
-    background-image: linear-gradient(to right, #3498db 3px, #222 3px);
+    background-image: -webkit-linear-gradient(left, color-stop(#222 5px), color-stop(#ccc 5px));
+    background-image: linear-gradient(to right, #3498db 5px, #222 5px);
     background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
 }
