@@ -3,6 +3,7 @@ body,
 .clearfix,
 .sidebar {
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-stack {
@@ -23,17 +24,20 @@ body,
 }
 
 .logout {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    position: absolute;
+    bottom: 0px;
     background-image: -webkit-linear-gradient(left, color-stop(#e74c3c 5px), color-stop(#ccc 5px));
     background-image: linear-gradient(to right, #e74c3c 5px, #222 5px);
-    background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
 }
 
 .active {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: white;
     background-image: -webkit-linear-gradient(left, color-stop(#2ecc71 5px), color-stop(#ccc 5px));
     background-image: linear-gradient(to right, #2ecc71 5px, #222 5px);
-    background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff333333', endColorstr='#ff222222', GradientType=1);
+}
+
+.sidebar-active {
+    color: white;
 }
