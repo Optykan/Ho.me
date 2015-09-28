@@ -88,9 +88,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Home</title>
+        <title>home</title>
 
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -123,7 +124,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="stocks.php">
                                 <span class="fa fa-line-chart"></span>
                                 <span class="sidebar-nav-item">Stocks</span>
 
@@ -140,12 +141,14 @@
             </aside>
             <section class="content">
                 <div class="col-xs-12">
+
                     <div class='current'>
                         <center>
-                            <p class='os now'>it's
+                            <p class="welcome po">Welcome Home</p>
+                            <p class='now'>it's
                                 <span class='temp'><?=round($nowtmp)?></span>&deg;<span class='unit'>C</span> now, <span class='lowercase'><?=$nowweather?></span></br>
                             </p>
-                            <p class='os feels'>feels like <span class='temp'><?=$nowfeel?></span>&deg;<span class='unit'>C</span></p>
+                            <p class='feels'>feels like <span class='temp'><?=round($nowfeel)?></span>&deg;<span class='unit'>C</span></p>
                         </center>
                     </div>
                 </div>

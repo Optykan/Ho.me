@@ -39,5 +39,37 @@ body,
 }
 
 .sidebar-active {
+    color: white !important;
+}
+
+.os {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.po {
+    font-family: 'Poiret One', cursive;
+}
+
+.now {
+    margin-top: 0px;
+    font-size: 3em;
     color: white;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+}
+
+.feels {
+    color: white;
+    font-size: 2em;
+    margin-top: 0.5em;
+}
+
+.current {
+    position: relative;
+    margin-top: 20%;
+}
+
+.welcome {
+    color: white;
+    font-size: 7em;
 }
