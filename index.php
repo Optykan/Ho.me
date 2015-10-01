@@ -144,7 +144,7 @@
 
                     <div class='current'>
                         <center>
-                            <p class="welcome po">Welcome Home</p>
+                            <p class="welcome po">welcome home</p>
                             <p class='now'>it's
                                 <span class='temp'><?=round($nowtmp)?></span>&deg;<span class='unit'>C</span> now, <span class='lowercase'><?=$nowweather?></span></br>
                             </p>
