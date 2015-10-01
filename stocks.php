@@ -50,43 +50,13 @@ for ($i = 1; $i<50; $i++){
 
     <body style="height:100%;">
         <div class="clearfix" style="height:100%;">
-            <aside class="sidebar">
-                <nav class="sidebar-nav">
-                    <div class="img-stack">
-                        <img class="profile-back" src="img/image.jpg">
-                        <img class="profile img-circle" src="img/user.png">
+            <?php $_GET['active']=2;
+            include("menu.php");?>
+                <section class="content">
+                    <div class="col-xs-12">
+                        <div id="chartContainer" style="height: 400px; width: 100%;"></div>
                     </div>
-
-
-                    <ul class="metismenu" id="menu">
-                        <li class="active">
-                            <a href="index.php">
-                                <span class="fa fa-home"></span>
-                                <span class="sidebar-nav-item">Overview</span>
-
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" class="sidebar-active">
-                                <span class="fa fa-line-chart"></span>
-                                <span class="sidebar-nav-item">Stocks</span>
-
-                            </a>
-                        </li>
-                        <li class="logout">
-                            <a href="#">
-                                <span class="fa fa-sign-out"></span>
-                                <span class="sidebar-nav-item">Logout</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </aside>
-            <section class="content">
-                <div class="col-xs-12">
-                    <div id="chartContainer" style="height: 400px; width: 100%;"></div>
-                </div>
-            </section>
+                </section>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
